@@ -1,17 +1,19 @@
 <template>
   <div id="app">
     <Category></Category>
+    <Mine></Mine>
   </div>
 </template>
 
 <script>
 
 import Category from './pages/category/Category'
+import Mine from './pages/mine/Mine'
 
 export default {
   name: 'app',
   components: {
-    Category
+    Category,Mine
   }
 }
 </script>
